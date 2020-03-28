@@ -21,7 +21,7 @@ body {font-family: "Lato", sans-serif}
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
     <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTOS</a>
+    <a rel="import" href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTOS</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -33,7 +33,7 @@ body {font-family: "Lato", sans-serif}
   </div>
   <div class="w3-top"></div>
   <div class="w3-bar w3-transparent ">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"></a>
     <img src="BlockLogo.png" style="width:10%"  class="w3-bar-item" >
   
   </div>
@@ -45,6 +45,7 @@ body {font-family: "Lato", sans-serif}
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTOS</a>
+
 </div>
 
 <!-- Page content -->
@@ -53,17 +54,25 @@ body {font-family: "Lato", sans-serif}
   <!-- Automatic Slideshow Images -->
   
   <div class="mySlides w3-display-container w3-center">
-    <img src="plum.jpg" style="width:100%">
+    <img src="plum.jpg" style="width:100%;height:20%">
     <a class="w3-button w3-grey w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-green" onclick="carousel()"> <i class="fa fa-angle-right"></i></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    
+    <div class="w3-bar w3-green w3-card">     
+    </div>
+
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small w3-green w3-card">
       <h3>Plumbing Repairs</h3>
       <p><b>We handle a wide variety of Plumbing Repairs.</b></p>   
     </div>
+
+
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="NewPlum.jpg" style="width:100%">
+    <img src="NEWplum.jpg" style="width:100%">
     <a class="w3-button w3-green w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="carousel()"> <i class="fa fa-angle-right"></i></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+    <div class="w3-bar w3-green w3-card">     
+    </div>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small w3-green w3-card">
       <h3>New Plumbing</h3>
       <p><b>Kieler Plumbing can tackle any new project!</b></p>    
     </div>
@@ -71,7 +80,9 @@ body {font-family: "Lato", sans-serif}
   <div class="mySlides w3-display-container w3-center">
     <img src="HVAC.jpg" style="width:100%">
     <a class="w3-button w3-green w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="carousel()"> <i class="fa fa-angle-right"></i></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <div class="w3-bar w3-green w3-card">     
+    </div>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small w3-green w3-card">
       <h3>HVAC</h3>
       <p><b>We're here for all of your HVAC needs both old and new!</b></p>    
     </div>
@@ -79,11 +90,20 @@ body {font-family: "Lato", sans-serif}
 
   <!-- About Us section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-    <h2 class="w3-wide">THE TEAM</h2>
+    <h2 class="w3-wide">About Us</h2>
     <p class="w3-opacity"><i>We love plumbing!</i></p>
     <p class="w3-justify">The crew at Kieler Plumbing is prepared to tackle any of your plumbing, heating, cooling, and 
       septic system repairs or new installs. Kieler plumbing is dedicated to offering a quality service and appropriate timeliness 
       to each and every customer no matter how big or small the project may be </p>
+      <div class="w3-row ">
+        
+     
+      </div>
+
+
+
+      <h2 class="w3-wide">Our Story</h2>
+    <p class="w3-justify">Kieler Plumbing  was founded in 201x by Andrew Kieler. Insert Personal Story here.  </p>
     <div class="w3-row w3-padding-32">
       <div class="w3-row-padding">
         <p>Andrew Kieler - Owner</p>
@@ -104,7 +124,7 @@ body {font-family: "Lato", sans-serif}
         <div class="w3-third w3-margin-bottom">
           <img src="plumbing-repair.jpg" alt="Repair" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>New Plumbing Install and Plumbing Repair</b></p>
+            <p><b>Plumbing Install and Repair</b></p>
             <p class="w3-opacity">Text here</p>
             <p>Description Here</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('').style.display='block'">See Photos</button>
@@ -113,7 +133,7 @@ body {font-family: "Lato", sans-serif}
         <div class="w3-third w3-margin-bottom">
           <img src="HVAC2.jpg" alt="HVAC" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>HVAC</b></p>
+            <p><b>HVAC  </b></p>
             <p class="w3-opacity">Text here</p>
             <p>Description Here</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('').style.display='block'">See Photos</button>
@@ -122,7 +142,7 @@ body {font-family: "Lato", sans-serif}
         <div class="w3-third w3-margin-bottom">
           <img src="septic.jpeg" alt="Septic" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>Septic</b></p>
+            <p><b>Septic  </b></p>
             <p class="w3-opacity">Text here</p>
             <p>Description Here</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('').style.display='block'">See Photos</button>
@@ -131,6 +151,7 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
   </div>
+
 
 
   <!-- <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">See Photos</button>-->
@@ -180,7 +201,12 @@ body {font-family: "Lato", sans-serif}
           <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
         </form>
       </div>
+    
     </div>
+    <div class="w3-row ">
+      <div class="w3-row-padding w3-center">
+        <img src="altLogo.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:40%">
+      </div>
   </div>
   
 <!-- End Page Content -->
@@ -217,7 +243,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 10000);    
+  setTimeout(carousel, 1000000);    
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
